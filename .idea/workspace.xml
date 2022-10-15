@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87498d1c-b19f-4acc-a388-875d1cda41c3" name="Changes" comment="Ex3 Almost Done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProninHW11/Exercise/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProninHW11/Exercise/Apple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProninHW11/Exercise/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProninHW11/Exercise/Box.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProninHW11/Exercise/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProninHW11/Exercise/Fruit.java" afterDir="false" />
@@ -98,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665840438838</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ex3 Almost Done">
+      <created>1665841141101</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665841141101</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,15 +125,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Ex3 Almost Done" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ProninHW11/Exercise/Box.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="ProninHW11.Exercise.Apple" memberName="fruitType" />

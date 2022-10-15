@@ -16,9 +16,9 @@ public class Box<T extends Fruit> {
     //высчитывает вес коробки, зная вес одного фрукта и их количество
     public double getWeight() {
         double size = listOfFruits.size();
-        double fw = listOfFruits.get(0).getWeight() * size;
-        System.out.println(fw);
-        return fw;
+        double fruitWeight = listOfFruits.get(0).getWeight() * size;
+        System.out.println(fruitWeight);
+        return fruitWeight;
     }
 
     public ArrayList<T> getListOfFruits() {

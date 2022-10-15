@@ -3,7 +3,7 @@ package ProninHW11.Exercise;
 public class Fruit {
 
     String fruitType;
-    double fruitWeight;
+    static double fruitWeight;
 
     public Fruit() {
     }

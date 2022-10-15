@@ -1,7 +1,7 @@
+package ProninHW11.Exercise1And2;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
 
 public class ChangeArrays {
 

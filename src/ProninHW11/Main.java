@@ -3,43 +3,86 @@ package ProninHW11;
 import ProninHW11.Exercise.Apple;
 import ProninHW11.Exercise.Box;
 import ProninHW11.Exercise.Orange;
+import ProninHW11.Exercise1And2.ChangeArrays;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
 
-/*        String[] exercise1 = {"1", "2", "3", "4", "5"};
+        String[] exercise1 = {"1", "2", "3", "4", "5"};
         Double[] exercise11 = {1.0, 2.2, 3.3, 4.4, 5.5};
 
         System.out.println(Arrays.toString(exercise1));
-        ProninHW11.Exercise1And2.ChangeArrays.changeArrayInd(exercise1, 1, 4);
+        ChangeArrays.changeArrayInd(exercise1, 1, 4);
         System.out.println(Arrays.toString(exercise1));
 
         System.out.println("+++++");
 
         System.out.println(Arrays.toString(exercise11));
-        ProninHW11.Exercise1And2.ChangeArrays.changeArrayInd(exercise11, 1, 4);
+        ChangeArrays.changeArrayInd(exercise11, 1, 4);
         System.out.println(Arrays.toString(exercise11));
 
         System.out.println("+++++");
 
-        ProninHW11.Exercise1And2.ChangeArrays.arrayToArrayList(exercise1);
-        System.out.println(ProninHW11.Exercise1And2.ChangeArrays.arrayToArrayList(exercise1));
-        */
+        ChangeArrays.arrayToArrayList(exercise1);
+        System.out.println(ChangeArrays.arrayToArrayList(exercise1));
 
-        Apple apple1 = new Apple();
-        Apple apple2 = new Apple();
-        Apple apple3 = new Apple();
-        Orange orange1 = new Orange();
-        Orange orange2 = new Orange();
-        Orange orange3 = new Orange();
+        Apple apple = new Apple();
+        Orange orange = new Orange();
 
-        Box<Apple> boxOfApples = new Box<Apple>();
-        Box<Orange> boxOfOranges = new Box<Orange>();
+        Box<Apple> boxOfApples = new Box<>();
+        Box<Apple> boxOfApples2 = new Box<>();
+        Box<Orange> boxOfOranges = new Box<>();
+        Box<Orange> boxOfOranges2 = new Box<>();
 
-        boxOfApples.boxAddFruit(apple1);
-        boxOfApples.boxAddFruit(apple2);
-        boxOfApples.boxAddFruit(apple3);
 
-        boxOfApples.getWeight();
+        boxOfApples.boxAddFruit(apple);
+        boxOfApples.boxAddFruit(apple);
+        boxOfApples.boxAddFruit(apple);
+        boxOfOranges.boxAddFruit(orange);
+        boxOfOranges.boxAddFruit(orange);
+        boxOfOranges.boxAddFruit(orange);
+        boxOfApples2.boxAddFruit(apple);
+        boxOfApples2.boxAddFruit(apple);
+        boxOfApples2.boxAddFruit(apple);
+
+        System.out.println("+++++");
+
+        System.out.println(boxOfApples.getWeight());
+        System.out.println(boxOfApples2.getWeight());
+        System.out.println(boxOfOranges.getWeight());
+        System.out.println(boxOfOranges2.getWeight());
+
+        System.out.println("+++++");
+
+        boxOfApples.compare(boxOfOranges);
+        boxOfApples.compare(boxOfApples2);
+
+        System.out.println("+++++");
+
+        System.out.println(boxOfApples.getWeight());
+        System.out.println(boxOfApples2.getWeight());
+
+        System.out.println("+++++");
+
+        boxOfApples.transferTo(boxOfApples2);
+        System.out.println(boxOfApples.getWeight() + ": Вес ящика 1");
+        System.out.println(boxOfApples2.getWeight() + ": Вес ящика 2");
+
+        System.out.println("+++++");
+
+        System.out.println(boxOfOranges.getWeight());
+        System.out.println(boxOfOranges2.getWeight());
+
+        System.out.println("+++++");
+
+        boxOfOranges.transferTo(boxOfOranges2);
+        System.out.println(boxOfOranges.getWeight());
+        System.out.println(boxOfOranges2.getWeight());
+
+        System.out.println("+++++");
+        boxOfOranges.compare(boxOfApples);
+
     }
 }

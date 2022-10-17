@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87498d1c-b19f-4acc-a388-875d1cda41c3" name="Changes" comment="Ex3 Almost Done">
-      <change beforePath="$PROJECT_DIR$/src/ProninHW11/Exercise/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProninHW11/Exercise/Apple.java" afterDir="false" />
+    <list default="true" id="87498d1c-b19f-4acc-a388-875d1cda41c3" name="Changes" comment="All Done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProninHW11/Exercise/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProninHW11/Exercise/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProninHW11/Exercise/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProninHW11/Exercise/Fruit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProninHW11/Exercise/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProninHW11/Exercise/Orange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProninHW11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProninHW11/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665841141101</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ex3 Almost Done">
+      <created>1665856924750</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665856924750</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,7 +128,8 @@
     <MESSAGE value="Ex1 Done" />
     <MESSAGE value="Ex1 And 2 Done" />
     <MESSAGE value="Ex3 Almost Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex3 Almost Done" />
+    <MESSAGE value="All Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Done" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
@@ -130,5 +137,10 @@
         <PinnedItemInfo parentTag="ProninHW11.Exercise.Apple" memberName="fruitType" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="boxOfOranges2" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
